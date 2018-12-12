@@ -211,6 +211,8 @@
     
     NSLog(@"second update");
     
+    NSLog(@"third update");
+    
     UIContextualAction *action2 = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleNormal title:@"置顶" handler:^(UIContextualAction * _Nonnull action, __kindof UIView * _Nonnull sourceView, void (^ _Nonnull completionHandler)(BOOL)) {
         NSLog(@"top");
         completionHandler(true);
