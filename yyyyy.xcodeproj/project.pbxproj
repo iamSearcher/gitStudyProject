@@ -18,6 +18,7 @@
 		BD217CB21F9993D900DB879F /* yyyyyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD217CB11F9993D900DB879F /* yyyyyUITests.m */; };
 		BD3B3B4E1FA9A1660087F675 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B3B4D1FA9A1660087F675 /* CustomView.m */; };
 		BD3B3B501FA9A18A0087F675 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3B3B4F1FA9A18A0087F675 /* CustomView.xib */; };
+		BD48333521C0E5140014C801 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD48333421C0E5140014C801 /* BaseNavigationController.m */; };
 		BD4B5FDD1FC55C5D008F8C6F /* MyLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4B5FDC1FC55C5D008F8C6F /* MyLineView.m */; };
 		BD4D41841FC3BD5400337B16 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D41831FC3BD5400337B16 /* PersonModel.m */; };
 		BD4D41871FC3BDAB00337B16 /* PetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4D41861FC3BDAB00337B16 /* PetModel.m */; };
@@ -69,6 +70,8 @@
 		BD3B3B4C1FA9A1660087F675 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		BD3B3B4D1FA9A1660087F675 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		BD3B3B4F1FA9A18A0087F675 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		BD48333321C0E5140014C801 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		BD48333421C0E5140014C801 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		BD4B5FDB1FC55C5D008F8C6F /* MyLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLineView.h; sourceTree = "<group>"; };
 		BD4B5FDC1FC55C5D008F8C6F /* MyLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLineView.m; sourceTree = "<group>"; };
 		BD4D41821FC3BD5400337B16 /* PersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				BD217C8E1F9993D900DB879F /* AppDelegate.m */,
 				BD217C901F9993D900DB879F /* ViewController.h */,
 				BD217C911F9993D900DB879F /* ViewController.m */,
+				BD48333321C0E5140014C801 /* BaseNavigationController.h */,
+				BD48333421C0E5140014C801 /* BaseNavigationController.m */,
 				BDEFE0D21FC2C2D00019C071 /* BaseViewController.h */,
 				BDEFE0D31FC2C2D00019C071 /* BaseViewController.m */,
 				BDEFE0D41FC2C2D00019C071 /* BaseViewController.xib */,
@@ -405,6 +410,7 @@
 				BD217C921F9993D900DB879F /* ViewController.m in Sources */,
 				BD58DCC01FE24CB900872B87 /* SingleObject.m in Sources */,
 				BD685CC41F9AE51500E5314E /* DataManager.m in Sources */,
+				BD48333521C0E5140014C801 /* BaseNavigationController.m in Sources */,
 				BD58DCC31FE276D000872B87 /* CopyModel.m in Sources */,
 				BD217C9D1F9993D900DB879F /* main.m in Sources */,
 				BD7C483D1FD1599200AC0DCB /* View1.m in Sources */,
