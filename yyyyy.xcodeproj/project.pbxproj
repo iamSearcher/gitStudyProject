@@ -297,7 +297,7 @@
 				TargetAttributes = {
 					BD217C891F9993D900DB879F = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					BD217CA11F9993D900DB879F = {
 						CreatedOnToolsVersion = 9.0;
@@ -581,14 +581,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Jingwei Information Technologies Company";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = HHGURJYM25;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T5TWS29QU;
 				INFOPLIST_FILE = yyyyy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.appTest.tkyPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.appTest.tkyPro123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c94eab4e-304a-4090-8153-9888e79af0ad";
-				PROVISIONING_PROFILE_SPECIFIER = tkyAppTest;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -599,14 +600,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Jingwei Information Technologies Company";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = HHGURJYM25;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T5TWS29QU;
 				INFOPLIST_FILE = yyyyy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.appTest.tkyPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.appTest.tkyPro123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c94eab4e-304a-4090-8153-9888e79af0ad";
-				PROVISIONING_PROFILE_SPECIFIER = tkyAppTest;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
